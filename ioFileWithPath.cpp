@@ -28,5 +28,9 @@ int main() {
     //Membuka file dalam mode membaca
     ifstream infile;
     //menunjuk ke sebuah file
+    infile.open(NamaFile, ios::in);
+    cout << endl << ">= Membuka dan membaca file " << endl;
+    //jika file ada maka
+    if (infile.is_open())
     
 }
